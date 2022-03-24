@@ -14,14 +14,14 @@ const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 5001;
 
 const hbs = exphbs.create({});
 
 const sess = {
-    secret: process.env.SESSION_SECRET,
+    secret: 'Super secret secret',
     cookie: {
-        maxAge: 15*60*1000
+        maxAge: 22*60*1000
     },
     resave: false,
     saveUninitialized: true,
