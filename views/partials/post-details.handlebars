@@ -1,13 +1,12 @@
 <br>
-<div class="card m-3 border-info">
+<div class="card m-3 border-primary">
     <div class="card-header d-flex justify-content-between bg-info text-white">
         <h5 class="mt-1 mb-1">{{title}}</h5>
-        <p class="mt-1 mb-1">Posted by {{name}} on {{date_created}}</p>
+        <p>Posted by {{name}} on {{date_created}}</p>
     </div>
     <div class="card-body">
         <p class="text-info card-text">{{content}}</p>
-        {{#if parent.loggedIn}}
-        <a href="/comment/{{id}}">Comment</a>
-        {{/if}}
+        <a href="/update/{{id}}">Edit or Delete Post</a>
     </div>
 </div>
+<br>
