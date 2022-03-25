@@ -129,6 +129,10 @@ Much thanks to my brilliant tutor Mr. Faran Navazi for helping me work through s
 <br>
 <br>
 
+Also, much thanks to BCS Learning Assistants for getting me through some of the challenges of developing this application and deploying it. 
+
+<br>
+
 ## Author:
 <br>
 Jason Yoo
