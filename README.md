@@ -14,13 +14,12 @@
 Build a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers' posts as well. Built completely from scratch and deployed through heroku. Application follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language. Sequelize as the ORM, and express-session npm package for authentication. 
 
 <br>
-<br>
 
 
 ## Table of contents:
 
   * [License](#license)
-  * [Deployed](#deployed)
+  * [Heroku](#heroku)
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contributions](#contributions)
@@ -30,7 +29,6 @@ Build a CMS-style blog site similar to a Wordpress site, where developers can pu
   * [Questions](#questions)
 
 <br>
-<br>
   
 ## License:
 <br>
@@ -39,19 +37,18 @@ Build a CMS-style blog site similar to a Wordpress site, where developers can pu
 <br>
 <br>
 
-## Deployed:
+## Heroku:
 
-[![Video-Link](images/youtubescreenshot.png)](https://youtu.be/Ekii66yDjfs)
+[![Heroku-Link](images/herokuscreenshot.png)](https://quiet-journey-86661.herokuapp.com/)
+
+https://quiet-journey-86661.herokuapp.com/
   
-  
-<br> 
 <br>
 
 ## Installation:
 <br>
       -  Clone the files from my github repository provided below. You will also need to have installed MySQL to your computer and have installed express-handlebars, express, sequelize, mysql2, dotenv, bcrypt, express-session, connect-session-sequelize and nodemon. 
 
-<br>
 <br>
   
 ## Usage: screenshots - (Highlighted Title(s) = a hyperlink to the direct image)
