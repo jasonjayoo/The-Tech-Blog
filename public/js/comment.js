@@ -21,3 +21,4 @@ async function newFormHandler(event){
 }
 
 document.querySelector('#comment').addEventListener('submit', newFormHandler);
+

@@ -38,3 +38,4 @@ async function deletePost(event){
 document.querySelector('#update-post').addEventListener('click', update);
 
 document.querySelector('#delete-post').addEventListener('click', deletePost);
+
