@@ -34,6 +34,7 @@ router.post('/', async (req, res) => {
 
 // UPDATE ONE COMMENT BY ID
 router.put('/:id', async (req, res) => {
+    console.log(req.session.logged_in, req.session.user_id)
     try {
         if (!req.session.logged_in) {
             res.status(400).json("User is not logged in");
@@ -43,6 +44,7 @@ router.put('/:id', async (req, res) => {
         const updateComment = await Comment.update(req.body, {
             where: { id: req.params.id }
         });
+        console.log(updateComment)
         res.status(200).json(updateComment);
     }
     catch (err) {
