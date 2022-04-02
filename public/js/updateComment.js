@@ -3,7 +3,7 @@
 async function updateComment(event){
     // console.log(event.target.dataset["cid"])
     event.preventDefault();
-    const content = document.querySelector('#comment-content').value;
+    const content = this.parent().si //document.querySelector('#comment-content').value;
     let path = document.location.pathname;
     path = path.split('/');
     const response = await fetch(`/api/comment/${event.target.dataset["cid"]}`, {

@@ -60,12 +60,14 @@ router.delete('/:id', async (req, res) => {
         const deletedPost = await Post.destroy({
             where: { id: req.params.id }
         });
-        res.status(200).json(deletedPost);
+        res.json(deletedPost);
+        window.location.assign('/dashboard');
     }
     catch (err) {
-        console.log(err);
-        res.status(400).json(err)
+        //console.log(err);
+        //res.status(400).json(err)
     }
+    
 });
 
 
