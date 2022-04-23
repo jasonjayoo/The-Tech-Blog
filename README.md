@@ -1,6 +1,6 @@
 # The-Tech-Blog
 
-(Homework - 14: Model-View-Controller (MVC): Tech Blog)
+(Model-View-Controller (MVC): Tech Blog)
 
 
 <br>
@@ -11,7 +11,7 @@
 
 ## Description:
 
-Build a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers' posts as well. Built completely from scratch and deployed through heroku. Application follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language. Sequelize as the ORM, and express-session npm package for authentication. 
+Build a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers' posts as well. Built completely from scratch and deployed through Heroku. Application follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language. Sequelize as the ORM, and express-session npm package for authentication. 
 
 <br>
 
